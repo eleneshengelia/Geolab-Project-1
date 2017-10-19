@@ -1,0 +1,122 @@
+.main-container {
+	.banner {
+		background: $background-color;
+        padding: 50px;
+        @media #{$phones} {
+        	padding: 0px;
+        }
+		.banner-bg {
+			background: url('../../images/banner.jpg');
+			background-size: contain;
+			@media #{$desktop} {
+			height: 350px;
+			position: relative;
+		  }
+		   @media #{$tablet} {
+			height: 350px;
+					  }
+		  @media #{$phones} {
+			height: 200px;
+			background-size: cover;
+		  }
+	    }
+	}
+  .videos {
+  	background: $main-color;
+    padding: 20px;
+  	.title {
+  	position: relative;
+  	top: 7px;
+  	a {
+  		color: white;
+  		text-transform: uppercase;
+  		cursor: pointer;
+  		span {
+  			text-transform: lowercase;
+  		}
+  	}
+    }
+  	.video-content {
+  		background: white;
+  		margin-top: 6%;
+  		p {
+  			text-transform: uppercase;
+  			text-align: center;
+  			padding: 120px;
+  			@media #{$phones} {
+  				padding: 60px;
+  			}
+  		}
+  	}
+  }
+  .news {
+  	padding: 30px;
+  	background: $news-bg;
+  	.title {
+  	position: relative;
+  	top: -14px;
+	  	a {
+	  		color: $menu-text-color;
+	  		text-transform: uppercase;
+	  		cursor: pointer;
+	  		span {
+	  			text-transform: lowercase;
+	  		}
+	  	}
+    }
+  	.news-content {
+  		img {
+  			width: 100%;
+  		}
+  		a {
+  			h4 {
+  				background: $background-color;
+			    padding: 13px 6px;
+			    font-size: 18px;
+			    text-transform: uppercase;
+			    color: $text-color;
+  			}
+  		}
+  	}
+  }
+
+  .featured {
+  	padding: 20px;
+  	background: $background-color;
+  	.title {
+  	position: relative;
+  	top: -14px;
+	  	a {
+	  		color: $menu-text-color;
+	  		text-transform: uppercase;
+	  		cursor: pointer;
+	  		span {
+	  			text-transform: lowercase;
+	  		}
+	  	}
+    }
+  .featured-media {
+    .f-content {
+         padding: 20px 0px;
+	     background: white;
+	     h5 {
+	     	padding: 4px 21px;
+	     	color: $menu-text-color;
+	     }
+	    a {
+	    	float: right;
+	        margin: -13px 19px;
+	        color: $menu-text-color;
+	    }
+    	.inner-content {
+	    	display: flex;
+	    	flex-flow: row;
+
+	    }
+
+    }
+   }
+
+  }
+
+}

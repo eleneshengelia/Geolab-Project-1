@@ -1,0 +1,204 @@
+/*media queries*/
+/* line 1, ../sass/header.scss */
+header {
+  padding: 15px 0px 13px 0px;
+}
+/* line 6, ../sass/header.scss */
+header .main-menu .nav li a {
+  color: #3d58a6;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 11, ../sass/header.scss */
+header .main-menu .nav li a:hover {
+  color: #899fdf;
+}
+@media (min-width: 1024px) {
+  /* line 18, ../sass/header.scss */
+  header .socials {
+    position: absolute;
+    right: 0;
+  }
+}
+/* line 26, ../sass/header.scss */
+header .socials .nav li a {
+  color: #3d58a6;
+  text-decoration: none;
+}
+/* line 29, ../sass/header.scss */
+header .socials .nav li a i {
+  font-size: 20px;
+}
+/* line 32, ../sass/header.scss */
+header .socials .nav li a .fa-search {
+  color: #ee4036;
+}
+/* line 38, ../sass/header.scss */
+header .socials li:not(:last-child):after {
+  content: " | ";
+}
+
+/* line 1, ../sass/footer.scss */
+footer {
+  padding: 10px 0px;
+}
+/* line 3, ../sass/footer.scss */
+footer span {
+  font-size: 12px;
+}
+/* line 6, ../sass/footer.scss */
+footer .right {
+  float: right;
+}
+
+/* line 2, ../sass/home.scss */
+.main-container .banner {
+  background: #e6e6e6;
+  padding: 50px;
+}
+@media (max-width: 700px) {
+  /* line 2, ../sass/home.scss */
+  .main-container .banner {
+    padding: 0px;
+  }
+}
+/* line 8, ../sass/home.scss */
+.main-container .banner .banner-bg {
+  background: url("../../images/banner.jpg");
+  background-size: contain;
+}
+@media (min-width: 1024px) {
+  /* line 8, ../sass/home.scss */
+  .main-container .banner .banner-bg {
+    height: 350px;
+    position: relative;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* line 8, ../sass/home.scss */
+  .main-container .banner .banner-bg {
+    height: 350px;
+  }
+}
+@media (max-width: 700px) {
+  /* line 8, ../sass/home.scss */
+  .main-container .banner .banner-bg {
+    height: 200px;
+    background-size: cover;
+  }
+}
+/* line 24, ../sass/home.scss */
+.main-container .videos {
+  background: #363e97;
+  padding: 20px;
+}
+/* line 27, ../sass/home.scss */
+.main-container .videos .title {
+  position: relative;
+  top: 7px;
+}
+/* line 30, ../sass/home.scss */
+.main-container .videos .title a {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 34, ../sass/home.scss */
+.main-container .videos .title a span {
+  text-transform: lowercase;
+}
+/* line 39, ../sass/home.scss */
+.main-container .videos .video-content {
+  background: white;
+  margin-top: 6%;
+}
+/* line 42, ../sass/home.scss */
+.main-container .videos .video-content p {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 120px;
+}
+@media (max-width: 700px) {
+  /* line 42, ../sass/home.scss */
+  .main-container .videos .video-content p {
+    padding: 60px;
+  }
+}
+/* line 52, ../sass/home.scss */
+.main-container .news {
+  padding: 30px;
+  background: #bdccd4;
+}
+/* line 55, ../sass/home.scss */
+.main-container .news .title {
+  position: relative;
+  top: -14px;
+}
+/* line 58, ../sass/home.scss */
+.main-container .news .title a {
+  color: #3d58a6;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 62, ../sass/home.scss */
+.main-container .news .title a span {
+  text-transform: lowercase;
+}
+/* line 68, ../sass/home.scss */
+.main-container .news .news-content img {
+  width: 100%;
+}
+/* line 72, ../sass/home.scss */
+.main-container .news .news-content a h4 {
+  background: #e6e6e6;
+  padding: 13px 6px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+/* line 83, ../sass/home.scss */
+.main-container .featured {
+  padding: 20px;
+  background: #e6e6e6;
+}
+/* line 86, ../sass/home.scss */
+.main-container .featured .title {
+  position: relative;
+  top: -14px;
+}
+/* line 89, ../sass/home.scss */
+.main-container .featured .title a {
+  color: #3d58a6;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 93, ../sass/home.scss */
+.main-container .featured .title a span {
+  text-transform: lowercase;
+}
+/* line 99, ../sass/home.scss */
+.main-container .featured .featured-media .f-content {
+  padding: 20px 0px;
+  background: white;
+}
+/* line 102, ../sass/home.scss */
+.main-container .featured .featured-media .f-content h5 {
+  padding: 4px 21px;
+  color: #3d58a6;
+}
+/* line 106, ../sass/home.scss */
+.main-container .featured .featured-media .f-content a {
+  float: right;
+  margin: -13px 19px;
+  color: #3d58a6;
+}
+/* line 111, ../sass/home.scss */
+.main-container .featured .featured-media .f-content .inner-content {
+  display: flex;
+  flex-flow: row;
+}
+
+/* line 8, ../sass/main.scss */
+body, html {
+  margin: 0;
+}

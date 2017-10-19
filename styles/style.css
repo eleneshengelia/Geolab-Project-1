@@ -1,0 +1,6 @@
+.navbar-nav {
+	flex-direction:  row!important;
+}
+.navbar-nav li {
+	padding: 0px 13px;
+}

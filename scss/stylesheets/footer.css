@@ -1,0 +1,12 @@
+/* line 1, ../sass/footer.scss */
+footer {
+  padding: 10px 0px;
+}
+/* line 3, ../sass/footer.scss */
+footer span {
+  font-size: 12px;
+}
+/* line 6, ../sass/footer.scss */
+footer .right {
+  float: right;
+}

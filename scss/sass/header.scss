@@ -1,0 +1,42 @@
+header {
+    padding: 15px 0px 13px 0px;
+    .main-menu {
+        .nav {
+            li {
+                a {
+                    color: $menu-text-color;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: $hover-color;
+                }
+            }
+
+        }
+    }
+   .socials {
+     @media #{$desktop} {
+        position: absolute;
+        right: 0;
+     }
+
+        .nav {
+            li {
+                a {
+                    color: $menu-text-color;
+                    text-decoration: none;
+                    i {
+                        font-size: 20px;
+                    }
+                    .fa-search {
+                        color: $secondary-color;
+                    }
+                }
+            }
+                        }
+            li:not(:last-child):after {
+                content: " | ";
+            }
+        }
+   }
